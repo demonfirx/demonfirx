@@ -81,13 +81,6 @@ My projects range from a personal portfolio to a Pokémon battle engine. I like 
   <img src="assets/generated/snake.svg" alt="An animated snake follows demonfirx's public contribution calendar." width="100%">
 </picture>
 
-### Contribution arcade
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/generated/activity-static.svg">
-  <img src="game.svg" alt="A brick breaker animation replays Odie's real contribution calendar. Automatic animation." width="100%">
-</picture>
-
 <p align="center">
   <strong>Take your time.</strong><br>
   <a href="https://natyournatsu.xyz">Explore my work &amp; get in touch ↗</a>
@@ -95,4 +88,4 @@ My projects range from a personal portfolio to a Pokémon battle engine. I like 
 
 <sub>Statistics and animations refresh automatically six times a day. Activity includes automated profile maintenance commits.</sub>
 
-<sub>Artwork: [ATLUS / Persona 5 Royal](https://p5r.jp/character/hero/). GIF: [Persona 5 via Tenor](https://tenor.com/view/joker-joker-persona5-gif-21179047). [Skill Icons](https://github.com/tandpfun/skill-icons) · [Snake](https://github.com/Platane/snk) · [Arcade inspiration](https://github.com/MakdumIbrohim/MakdumIbrohim/blob/main/game.svg). Persona © ATLUS / SEGA. Personal fan profile.</sub>
+<sub>Artwork: [ATLUS / Persona 5 Royal](https://p5r.jp/character/hero/). GIF: [Persona 5 via Tenor](https://tenor.com/view/joker-joker-persona5-gif-21179047). [Skill Icons](https://github.com/tandpfun/skill-icons) · [Snake](https://github.com/Platane/snk). Persona © ATLUS / SEGA. Personal fan profile.</sub>
