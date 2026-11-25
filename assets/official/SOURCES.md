@@ -10,4 +10,4 @@ The Joker illustration is an original ATLUS asset, used unchanged within the pro
 - Animated derivative: first 3 seconds, resized and palette optimized. No character artwork was generated or redrawn.
 - Persona and Joker © ATLUS / SEGA. This is a personal fan profile, unaffiliated with ATLUS or SEGA.
 
-Technology icons come from https://github.com/tandpfun/skill-icons (MIT), downloaded through https://skillicons.dev. The icon groups follow the user's supplied reference image.
+Technology icons come from https://github.com/tandpfun/skill-icons (MIT), downloaded through https://skillicons.dev. The selected technologies and their public portfolio/project references are recorded in `tools/tech-stack.json`. Each icon has its own link to the technology's official documentation.
