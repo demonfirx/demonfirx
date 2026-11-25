@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" role="img" aria-labelledby="title"><title id="title">NINTENDO RETRO: A retro web tribute to Nintendo. CSS / JavaScript / HTML</title><defs><pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#101013" opacity=".22"/></pattern><pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V10" stroke="#f7f3e9" stroke-width="2" opacity=".08"/></pattern></defs>
+<path fill="#101013" d="M0 0H1280V240H0Z"/><path fill="url(#lines)" d="M0 0H1280V240H0Z"/>
+<path d="M0 0H222L163 240H0Z" fill="#ed123b"/><path d="M210 0H222L163 240H150Z" fill="#f7f3e9"/>
+<text x="25" y="36" font-family="monospace" font-size="17" letter-spacing="2" fill="#f7f3e9">TARGET / 04</text>
+<g transform="translate(16 38)" stroke="#f7f3e9" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M42 66H113L138 118Q143 138 125 138L103 116H49L29 138Q10 143 13 122Z M44 81V107 M31 94H57 M108 87H109 M120 100H121 M68 106H84"/></g>
+<text x="249" y="88" font-family="Impact,Arial Black,sans-serif" font-size="55" letter-spacing="1" fill="#f7f3e9">NINTENDO RETRO</text>
+<text x="250" y="133" font-family="Arial,sans-serif" font-size="23" fill="#f7f3e9">A retro web tribute to Nintendo.</text>
+<text x="250" y="189" font-family="monospace" font-size="20" fill="#f76680">CSS / JavaScript / HTML</text>
+<path d="M1180 168H1230M1211 150 1230 168 1211 186" fill="none" stroke="#f7f3e9" stroke-width="5"/>
+<path d="M250 216H1230" stroke="#f7f3e9" stroke-width="1" opacity=".25"/></svg>
