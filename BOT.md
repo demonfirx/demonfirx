@@ -6,7 +6,9 @@ Bot ini berada di repository **[demonfirx/demonfirx](https://github.com/demonfir
 - **Jadwal dan konfigurasi:** [.github/workflows/profile-update.yml](.github/workflows/profile-update.yml).
 - **Status dan riwayat:** [halaman Actions](https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml).
 
-Jadwalnya enam kali sehari: **00:17, 04:17, 08:17, 12:17, 16:17, dan 20:17 WIB**. Setiap eksekusi mengambil statistik publik GitHub, memperbarui grafik bahasa, ringkasan kontribusi, serta animasi snake. Perubahan hasilnya disimpan melalui commit otomatis ke `main`.
+Jadwalnya **16 kali sehari**, dengan jarak **90 menit**: **00:17, 01:47, 03:17, 04:47, 06:17, 07:47, 09:17, 10:47, 12:17, 13:47, 15:17, 16:47, 18:17, 19:47, 21:17, dan 22:47 WIB**.
+
+Setiap eksekusi mengambil statistik publik GitHub, memperbarui grafik bahasa, ringkasan kontribusi, serta animasi snake. Perubahan hasilnya disimpan melalui satu commit otomatis ke `main` per eksekusi, dengan target 16 commit bot per hari. Jumlah kontribusi yang ditampilkan tetap mengikuti perhitungan GitHub dan aktivitas lain pada akun.
 
 Untuk menjalankan manual, buka halaman Actions di atas, pilih **Run workflow**, lalu jalankan branch `main`. Log setiap tahap tersedia di halaman eksekusinya.
 

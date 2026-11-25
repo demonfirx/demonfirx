@@ -2,8 +2,11 @@ name: Refresh profile and contribution snake
 
 on:
   schedule:
-    # Six updates/day: 00:17, 04:17, 08:17, 12:17, 16:17, 20:17 WIB.
-    - cron: '17 1,5,9,13,17,21 * * *'
+    # 16 updates/day, every 90 minutes. Cron uses UTC; local times are WIB.
+    # 00:17, 03:17, 06:17, 09:17, 12:17, 15:17, 18:17, 21:17 WIB.
+    - cron: '17 2,5,8,11,14,17,20,23 * * *'
+    # 01:47, 04:47, 07:47, 10:47, 13:47, 16:47, 19:47, 22:47 WIB.
+    - cron: '47 0,3,6,9,12,15,18,21 * * *'
   workflow_dispatch:
 
 permissions:

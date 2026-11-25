@@ -104,7 +104,7 @@ My projects range from a personal portfolio to a Pokémon battle engine. I like 
   <a href="https://natyournatsu.xyz">Explore my work &amp; get in touch ↗</a>
 </p>
 
-<sub>Statistics and animations refresh automatically six times a day. Activity includes automated profile maintenance commits.</sub>
+<sub>Statistics and animations refresh automatically 16 times a day, every 90 minutes. Activity includes automated profile maintenance commits.</sub>
 
 <p align="center">
   <a href="https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml"><img src="https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml/badge.svg" alt="Profile bot workflow status"></a><br>
