@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {"id":"portfolio","url":"https://github.com/demonfirx/CV-DewaBagusOdie-v2/blob/main/src/app/components/About.tsx","basis":"Technologies explicitly listed in the user's public portfolio."},
+    {"id":"portfolio-build","url":"https://github.com/demonfirx/CV-DewaBagusOdie-v2/blob/main/package.json","basis":"Vite is used to build the public portfolio."},
+    {"id":"browser-game","url":"https://github.com/demonfirx/Pokemon-battle","basis":"Public browser game source contains HTML and CSS."},
+    {"id":"profile","url":"https://github.com/demonfirx/demonfirx","basis":"GitHub is used for the public repositories and profile automation."}
+  ],
+  "groups": [
+    {"title":"Frontend & UI/UX","items":[
+      {"name":"React","icon":"react","url":"https://react.dev/","evidence":"portfolio"},
+      {"name":"Next.js","icon":"nextjs","url":"https://nextjs.org/docs","evidence":"portfolio"},
+      {"name":"TypeScript","icon":"ts","url":"https://www.typescriptlang.org/docs/","evidence":"portfolio"},
+      {"name":"JavaScript","icon":"js","url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript","evidence":"portfolio"},
+      {"name":"HTML","icon":"html","url":"https://developer.mozilla.org/en-US/docs/Web/HTML","evidence":"browser-game"},
+      {"name":"CSS","icon":"css","url":"https://developer.mozilla.org/en-US/docs/Web/CSS","evidence":"browser-game"},
+      {"name":"Tailwind CSS","icon":"tailwind","url":"https://tailwindcss.com/docs","evidence":"portfolio"},
+      {"name":"Figma","icon":"figma","url":"https://help.figma.com/","evidence":"portfolio"}
+    ]},
+    {"title":"Backend & Data","items":[
+      {"name":"Node.js","icon":"nodejs","url":"https://nodejs.org/en/docs","evidence":"portfolio"},
+      {"name":"Python","icon":"py","url":"https://docs.python.org/3/","evidence":"portfolio"},
+      {"name":"PHP","icon":"php","url":"https://www.php.net/docs.php","evidence":"portfolio"},
+      {"name":"Laravel","icon":"laravel","url":"https://laravel.com/docs","evidence":"portfolio"},
+      {"name":"GraphQL","icon":"graphql","url":"https://graphql.org/learn/","evidence":"portfolio"},
+      {"name":"MongoDB","icon":"mongodb","url":"https://www.mongodb.com/docs/","evidence":"portfolio"},
+      {"name":"PostgreSQL","icon":"postgres","url":"https://www.postgresql.org/docs/","evidence":"portfolio"}
+    ]},
+    {"title":"Tools & Workflow","items":[
+      {"name":"Docker","icon":"docker","url":"https://docs.docker.com/","evidence":"portfolio"},
+      {"name":"Git","icon":"git","url":"https://git-scm.com/doc","evidence":"portfolio"},
+      {"name":"GitHub","icon":"github","url":"https://docs.github.com/","evidence":"profile"},
+      {"name":"Vite","icon":"vite","url":"https://vite.dev/guide/","evidence":"portfolio-build"}
+    ]}
+  ]
+}

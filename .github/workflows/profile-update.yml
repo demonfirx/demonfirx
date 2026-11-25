@@ -27,7 +27,7 @@ jobs:
       - name: Check public-data parsing
         run: node --test tools/profile.test.mjs
       - name: Refresh public statistics
-        run: node tools/update-profile.mjs
+        run: node bot.mjs
         env:
           GH_TOKEN: ${{ github.token }}
           PROFILE_LOGIN: ${{ github.repository_owner }}
