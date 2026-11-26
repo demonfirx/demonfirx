@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="186" viewBox="0 0 760 186">
+<defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#000" opacity=".16"/></pattern></defs>
+<path d="M0 0H760V186H0Z" fill="#080808"/>
+<path d="M610 0H760V186H529Z M0 177H542L538 186H0Z" fill="#e60020"/>
+<path d="M610 0H760V186H529Z" fill="url(#dots)"/>
+<path d="M599 0H619L539 186H519Z M32 35 575 26 550 98 17 107Z" fill="#fff"/>
+<text x="38" y="82" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-style="italic" font-size="38" fill="#080808" >ODIE PORTFOLIO</text>
+<path d="M42 136l9 9-9 9-9-9Z" fill="#e60020"/>
+<text x="63" y="154" font-family="Arial,sans-serif" font-weight="800" font-size="26" fill="#fff">TypeScript</text>
+<path d="M0-100 26-32 100-32 44 14 63 87 0 44-63 87-44 14-100-32-26-32Z" transform="translate(676 79) scale(.55)" fill="none" stroke="#fff" stroke-width="12"/>
+<path d="M704 160l22-22m-18 0h18v18" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+</svg>

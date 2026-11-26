@@ -127,12 +127,14 @@ A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-r
   <img src="assets/profile/pinned-repositories.png" width="100%" alt="Pinned repositories — Wild Cards">
 </picture></h3>
 
+<!-- wild-cards:start -->
 <p align="center">
-  <a href="https://github.com/demonfirx/CreditFlow"><img src="assets/profile/pinned-creditflow.png" width="390" alt="CreditFlow repository · JavaScript"></a>
-  <a href="https://github.com/demonfirx/CV-DewaAgungYogieNovian"><img src="assets/profile/pinned-yogie.png" width="390" alt="Dewa Agung Yogie CV repository · TypeScript"></a>
-  <a href="https://github.com/demonfirx/CV-DewaBagusOdie-v2"><img src="assets/profile/pinned-odie.png" width="390" alt="ODIE Portfolio repository · TypeScript"></a>
-  <a href="https://github.com/demonfirx/Pokemon-battle"><img src="assets/profile/pinned-pokemon.png" width="390" alt="Pokémon Battle repository · JavaScript"></a>
+  <a href="https://github.com/demonfirx/CreditFlow" title="demonfirx/CreditFlow"><img src="assets/profile/wild-cards/card-761e92c64da742b1.svg" width="390" alt="CreditFlow repository · JavaScript"></a>
+  <a href="https://github.com/demonfirx/CV-DewaAgungYogieNovian" title="demonfirx/CV-DewaAgungYogieNovian"><img src="assets/profile/wild-cards/card-a3c3934e9f444881.svg" width="390" alt="Dewa Agung Yogie CV repository · TypeScript"></a>
+  <a href="https://github.com/demonfirx/CV-DewaBagusOdie-v2" title="demonfirx/CV-DewaBagusOdie-v2"><img src="assets/profile/wild-cards/card-5ead9ef68b121134.svg" width="390" alt="ODIE Portfolio repository · TypeScript"></a>
+  <a href="https://github.com/demonfirx/Pokemon-battle" title="demonfirx/Pokemon-battle"><img src="assets/profile/wild-cards/card-a19dc1304e01459f.svg" width="390" alt="Pokémon Battle repository · JavaScript"></a>
 </p>
+<!-- wild-cards:end -->
 
 <h3><a href="https://natyournatsu.xyz"><picture>
   <source media="(max-width: 600px)" srcset="assets/profile/take-your-time-mobile.png">
