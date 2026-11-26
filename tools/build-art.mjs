@@ -114,21 +114,6 @@ function contributionStripe(mirrored) {
 </svg>`;
 }
 
-function pinnedCard(title, language) {
- return start(760, 186)+`
-<path d="M610 0H760V186H529Z" fill="${red}"/>
-<path d="M610 0H760V186H529Z" fill="url(#dots)"/>
-<path d="M599 0H619L539 186H519Z" fill="${white}"/>
-<path d="M32 35 575 26 550 98 17 107Z" fill="${white}"/>
-<text x="38" y="82" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-style="italic" font-size="38" fill="${black}">${xml(title.toUpperCase())}</text>
-<path d="M42 136l9 9-9 9-9-9Z" fill="${red}"/>
-<text x="63" y="154" font-family="Arial,sans-serif" font-weight="800" font-size="26" fill="${white}">${xml(language)}</text>
-${star(676,79,.55)}
-<path d="M704 160l22-22m-18 0h18v18" fill="none" stroke="${white}" stroke-width="4" stroke-linejoin="round"/>
-<path d="M0 177H542L538 186H0Z" fill="${red}"/>
-</svg>`;
-}
-
 const destinations = await Promise.all([
  ['portfolio', 'PORTFOLIO', 'page-portfolio.png'],
  ['games', 'GAMES', 'page-playground.png'],
@@ -155,12 +140,6 @@ const sections = [
  ['profile/phantom-trail', 416, 66, categoryCard('Phantom Trail')],
  ['profile/contribution-stripe-top', 880, 16, contributionStripe(false)],
  ['profile/contribution-stripe-bottom', 880, 16, contributionStripe(true)],
- ...[
-  ['creditflow', 'CreditFlow', 'JavaScript'],
-  ['yogie', 'Dewa Agung Yogie CV', 'TypeScript'],
-  ['odie', 'ODIE Portfolio', 'TypeScript'],
-  ['pokemon', 'Pokémon Battle', 'JavaScript'],
- ].map(([name, title, language]) => [`profile/pinned-${name}`, 760, 186, pinnedCard(title, language)]),
  ...destinations,
  ...[
   ['odie', 'ODIE Portfolio'],
