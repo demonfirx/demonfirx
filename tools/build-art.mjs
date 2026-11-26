@@ -110,6 +110,7 @@ const sections = [
   ['tech-stack', 'TOOLS & TECHNOLOGIES', 'THE LOADOUT'],
   ['web-pages', 'WEB PAGES', 'HIDEOUTS'],
   ['selected-projects', 'SELECTED PROJECTS', 'MISSION FILES'],
+  ['github-activity', 'ON GITHUB', 'ACTIVITY LOG'],
  ].flatMap(([name, label, title]) => [
   [`profile/${name}`, 880, 108, sectionCard(label, title)],
   [`profile/${name}-mobile`, 440, 88, compactSectionCard(label, title)],

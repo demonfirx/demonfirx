@@ -1,21 +1,16 @@
 import {mkdir,readFile,writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {collectPublicData,escapeXml as esc} from './profile-data.mjs';
+import {renderStatsCard, renderLanguagesCard} from './profile-cards.mjs';
 
 const root=fileURLToPath(new URL('../',import.meta.url));
 const data=await collectPublicData(process.env.PROFILE_LOGIN||'demonfirx',process.env.GH_TOKEN||process.env.GITHUB_TOKEN);
 await mkdir(`${root}assets/generated`,{recursive:true});
-const ink='#0d1117',paper='#f0f6fc',muted='#8b949e',accent='#ff3654',green=['#161b22','#0e4429','#006d32','#26a641','#39d353'];
+const ink='#0d1117',paper='#f0f6fc',green=['#161b22','#0e4429','#006d32','#26a641','#39d353'];
 const svg=(w,h,label,body)=>`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(label)}"><rect x=".5" y=".5" width="${w-1}" height="${h-1}" rx="8" fill="${ink}" stroke="#30363d"/><g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">${body}</g></svg>`;
 const text=(x,y,value,size=16,color=paper,extra='')=>`<text x="${x}" y="${y}" fill="${color}" font-size="${size}" ${extra}>${esc(value)}</text>`;
-const rows=[['Public repositories',data.stats.publicRepositories],['Stars earned',data.stats.stars],['Public commits',data.stats.publicCommits],['Public pull requests',data.stats.publicPRs],['Public issues',data.stats.publicIssues],[`${data.calendar.year} contributions`,data.calendar.total]];
-await writeFile(`${root}assets/generated/stats.svg`,svg(400,245,`${data.name}'s GitHub public statistics`,
- text(22,33,'On GitHub',21,accent,'font-weight="700"')+rows.map(([label,value],i)=>text(22,67+i*27,label,15,muted)+text(374,67+i*27,value.toLocaleString('en'),16,paper,'text-anchor="end" font-weight="700"')).join('')+text(22,232,'Public activity · refreshed automatically',10,muted)));
-const colors={JavaScript:'#f1e05a',TypeScript:'#3178c6',CSS:'#a563df',HTML:'#e34c26',Python:'#3572a5',PHP:'#4f5d95',Blade:'#f7523f',Shell:'#89e051',Astro:'#ff5a03'};
-const langs=data.languages.slice(0,6),total=data.languages.reduce((s,l)=>s+l.bytes,0);let x=22;
-const bars=langs.map(l=>{const width=356*l.bytes/total;const b=`<rect x="${x}" y="62" width="${width}" height="10" fill="${colors[l.name]||'#8598a8'}"/>`;x+=width;return b;}).join('');
-const labels=langs.map((l,i)=>{const column=i%2,row=Math.floor(i/2),left=22+column*180;return `<circle cx="${left+4}" cy="${106+row*34}" r="4" fill="${colors[l.name]||'#8598a8'}"/>`+text(left+15,111+row*34,`${l.name} ${(100*l.bytes/total).toFixed(1)}%`,13);}).join('');
-await writeFile(`${root}assets/generated/languages.svg`,svg(400,245,'Most used languages by bytes in public non-fork repositories',text(22,33,'Most used languages',21,accent,'font-weight="700"')+bars+labels+text(22,215,'By code size in public, non-fork repositories.',11,muted)+text(22,233,'Includes profile automation; not a skill rating.',10,muted)));
+await writeFile(`${root}assets/generated/stats.svg`, renderStatsCard(data));
+await writeFile(`${root}assets/generated/languages.svg`, renderLanguagesCard(data.languages));
 
 const yearStart=new Date(`${data.calendar.year}-01-01T00:00:00Z`),offset=yearStart.getUTCDay();
 const cell=13,step=14,x0=24,y0=63;

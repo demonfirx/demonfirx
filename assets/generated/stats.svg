@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="245" viewBox="0 0 400 245" role="img" aria-label="Dewa Bagus Odie&apos;s GitHub public statistics"><rect x=".5" y=".5" width="399" height="244" rx="8" fill="#0d1117" stroke="#30363d"/><g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"><text x="22" y="33" fill="#ff3654" font-size="21" font-weight="700">On GitHub</text><text x="22" y="67" fill="#8b949e" font-size="15" >Public repositories</text><text x="374" y="67" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">11</text><text x="22" y="94" fill="#8b949e" font-size="15" >Stars earned</text><text x="374" y="94" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">0</text><text x="22" y="121" fill="#8b949e" font-size="15" >Public commits</text><text x="374" y="121" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">73</text><text x="22" y="148" fill="#8b949e" font-size="15" >Public pull requests</text><text x="374" y="148" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">0</text><text x="22" y="175" fill="#8b949e" font-size="15" >Public issues</text><text x="374" y="175" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">1</text><text x="22" y="202" fill="#8b949e" font-size="15" >2026 contributions</text><text x="374" y="202" fill="#f0f6fc" font-size="16" text-anchor="end" font-weight="700">76</text><text x="22" y="232" fill="#8b949e" font-size="10" >Public activity · refreshed automatically</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="262" viewBox="0 0 400 262" role="img" aria-label="Dewa Bagus Odie&apos;s GitHub public statistics">
+ <path d="M.5.5H399.5V261.5H.5Z" fill="#080808" stroke="#544047"/>
+ <path d="M0 0H23L0 54Z M340 0H400V55H313Z M0 255H400V262H0Z" fill="#e60020"/>
+ <path d="M341 0H350L324 55H315Z M270 255H356L352 262H266Z" fill="#fff"/>
+ <path d="M25 10 312 7 300 48 15 51Z" fill="#fff"/>
+ <path d="M369 12l4.7 10h11l-8.8 7.2 3.2 10.8-10.1-6.6-9.7 6.6 3-10.8-9-7.2h11Z" fill="none" stroke="#fff" stroke-width="1.6"/>
+ <g font-family="Arial, Helvetica, sans-serif">
+  <text x="30" y="36" fill="#080808" font-size="18" font-style="italic" font-weight="900">PUBLIC STATS</text>
+  <path d="M22 65l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
+   <text x="35" y="76" fill="#fff" font-size="15" >Public repositories</text>
+   <text x="374" y="76" fill="#fff" font-size="17" text-anchor="end" font-weight="800">11</text>
+   <path d="M18 84H378" stroke="#352b30"/>
+<path d="M22 92l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
+   <text x="35" y="103" fill="#fff" font-size="15" >Stars earned</text>
+   <text x="374" y="103" fill="#fff" font-size="17" text-anchor="end" font-weight="800">0</text>
+   <path d="M18 111H378" stroke="#352b30"/>
+<path d="M22 119l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
+   <text x="35" y="130" fill="#fff" font-size="15" >Public commits</text>
+   <text x="374" y="130" fill="#fff" font-size="17" text-anchor="end" font-weight="800">73</text>
+   <path d="M18 138H378" stroke="#352b30"/>
+<path d="M22 146l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
+   <text x="35" y="157" fill="#fff" font-size="15" >Public pull requests</text>
+   <text x="374" y="157" fill="#fff" font-size="17" text-anchor="end" font-weight="800">0</text>
+   <path d="M18 165H378" stroke="#352b30"/>
+<path d="M22 173l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
+   <text x="35" y="184" fill="#fff" font-size="15" >Public issues</text>
+   <text x="374" y="184" fill="#fff" font-size="17" text-anchor="end" font-weight="800">1</text>
+   <path d="M18 192H378" stroke="#352b30"/>
+<path d="M22 200l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
+   <text x="35" y="211" fill="#fff" font-size="15" >2026 contributions</text>
+   <text x="374" y="211" fill="#fff" font-size="17" text-anchor="end" font-weight="800">76</text>
+   <path d="M18 219H378" stroke="#352b30"/><text x="19" y="243" fill="#d5c8cd" font-size="12" >Public activity · refreshed automatically</text>
+ </g>
+</svg>
