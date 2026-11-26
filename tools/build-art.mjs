@@ -81,15 +81,47 @@ ${star(394,47,.33)}
 </svg>`;
 }
 
+function destinationCard(title, artwork) {
+ return start(520, 246)+`
+<path d="M327 0H520V246H224Z" fill="${red}"/>
+<path d="M327 0H520V246H224Z" fill="url(#dots)"/>
+<path d="M318 0H335L232 246H215Z" fill="${white}"/>
+${star(413,116,.77)}
+<image href="${artwork}" x="249" y="2" width="271" height="242"/>
+<path d="M24 77 284 67 263 130 14 142Z" fill="${white}"/>
+<text x="29" y="117" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-style="italic" font-size="34" letter-spacing="-1" fill="${black}">${xml(title)}</text>
+<path d="M30 165H87L78 201H22Z" fill="${red}"/>
+<path d="M42 190l15-15m-12 0h12v12" fill="none" stroke="${white}" stroke-width="3" stroke-linejoin="round"/>
+</svg>`;
+}
+
+const destinations = await Promise.all([
+ ['portfolio', 'PORTFOLIO', 'page-portfolio.png'],
+ ['games', 'GAMES', 'page-playground.png'],
+ ['code', 'CODE', 'page-projects.png'],
+].map(async ([name, title, file]) => {
+ const artwork = await readFile(`${root}assets/${file}`);
+ return [`profile/destination-${name}`, 520, 246, destinationCard(title, `data:image/png;base64,${artwork.toString('base64')}`)];
+}));
+
 const sections = [
  ...[
   ['about-me', 'ABOUT ME', 'BEHIND THE MASK'],
   ['tech-stack', 'TOOLS & TECHNOLOGIES', 'THE LOADOUT'],
+  ['web-pages', 'WEB PAGES', 'HIDEOUTS'],
+  ['selected-projects', 'SELECTED PROJECTS', 'MISSION FILES'],
  ].flatMap(([name, label, title]) => [
   [`profile/${name}`, 880, 108, sectionCard(label, title)],
   [`profile/${name}-mobile`, 440, 88, compactSectionCard(label, title)],
  ]),
  ...stack.groups.map(({art, title}) => [`profile/${art}`, 416, 66, categoryCard(title)]),
+ ...destinations,
+ ...[
+  ['odie', 'ODIE Portfolio'],
+  ['pokemon', 'Pokémon Battle'],
+  ['roughsketch', 'RoughSketch UI'],
+  ['nintendo', 'Nintendo Retro'],
+ ].map(([name, title]) => [`profile/project-${name}`, 416, 66, categoryCard(`${title} ↗`)]),
 ];
 const headers = [['header-joker', 1280, 440, wide], ['header-joker-mobile', 720, 660, mobile]];
 const browser=await chromium.launch({headless:true,channel:'chrome'});
