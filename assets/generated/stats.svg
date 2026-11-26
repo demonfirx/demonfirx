@@ -16,11 +16,11 @@
    <path d="M18 111H378" stroke="#352b30"/>
 <path d="M22 119l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
    <text x="35" y="130" fill="#fff" font-size="15" >Public commits</text>
-   <text x="374" y="130" fill="#fff" font-size="17" text-anchor="end" font-weight="800">79</text>
+   <text x="374" y="130" fill="#fff" font-size="17" text-anchor="end" font-weight="800">84</text>
    <path d="M18 138H378" stroke="#352b30"/>
 <path d="M22 146l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
    <text x="35" y="157" fill="#fff" font-size="15" >Public pull requests</text>
-   <text x="374" y="157" fill="#fff" font-size="17" text-anchor="end" font-weight="800">5</text>
+   <text x="374" y="157" fill="#fff" font-size="17" text-anchor="end" font-weight="800">9</text>
    <path d="M18 165H378" stroke="#352b30"/>
 <path d="M22 173l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
    <text x="35" y="184" fill="#fff" font-size="15" >Public issues</text>
@@ -28,7 +28,7 @@
    <path d="M18 192H378" stroke="#352b30"/>
 <path d="M22 200l3.5 4-3.5 4-3.5-4Z" fill="#e60020"/>
    <text x="35" y="211" fill="#fff" font-size="15" >2026 contributions</text>
-   <text x="374" y="211" fill="#fff" font-size="17" text-anchor="end" font-weight="800">87</text>
+   <text x="374" y="211" fill="#fff" font-size="17" text-anchor="end" font-weight="800">96</text>
    <path d="M18 219H378" stroke="#352b30"/><text x="19" y="243" fill="#d5c8cd" font-size="12" >Public activity · refreshed automatically</text>
  </g>
 </svg>
