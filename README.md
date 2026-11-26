@@ -65,29 +65,37 @@ I build web interfaces and make browser games on the side. My [Pokémon battle e
 </p>
 <!-- tech-stack:end -->
 
-<h3 align="center">Web Pages</h3>
+<h3><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/web-pages-mobile.png">
+  <img src="assets/profile/web-pages.png" width="100%" alt="Web Pages — Hideouts">
+</picture></h3>
 
-<table>
-  <thead><tr>
-    <th align="center" width="33%"><a href="https://natyournatsu.xyz">Portfolio ↗</a></th>
-    <th align="center" width="33%"><a href="https://pokemon-battle-beta.vercel.app">Games ↗</a></th>
-    <th align="center" width="33%"><a href="https://github.com/demonfirx?tab=repositories">Code ↗</a></th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center"><a href="https://natyournatsu.xyz"><img src="assets/page-portfolio.png" alt="Joker from Persona 5 Royal. Visit Odie's portfolio." width="260"></a></td>
-    <td align="center"><a href="https://pokemon-battle-beta.vercel.app"><img src="assets/page-playground.png" alt="The Persona 5 protagonist in his school outfit. Play Pokémon Battle." width="260"></a></td>
-    <td align="center"><a href="https://github.com/demonfirx?tab=repositories"><img src="assets/page-projects.png" alt="Arsène from Persona 5 Royal. Browse all public repositories." width="260"></a></td>
-  </tr></tbody>
-</table>
+<p align="center">
+  <a href="https://natyournatsu.xyz"><img src="assets/profile/destination-portfolio.png" width="260" alt="Portfolio — visit Odie's portfolio"></a>
+  <a href="https://pokemon-battle-beta.vercel.app"><img src="assets/profile/destination-games.png" width="260" alt="Games — play Pokémon Battle"></a>
+  <a href="https://github.com/demonfirx?tab=repositories"><img src="assets/profile/destination-code.png" width="260" alt="Code — browse all public repositories"></a>
+</p>
 
-### Selected projects
+<h3><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/selected-projects-mobile.png">
+  <img src="assets/profile/selected-projects.png" width="100%" alt="Selected Projects — Mission Files">
+</picture></h3>
 
-| Project | What I built |
-| :--- | :--- |
-| [**ODIE Portfolio**](https://github.com/demonfirx/CV-DewaBagusOdie-v2) | A personal portfolio built with React, TypeScript, Tailwind CSS, and Motion. [Visit ↗](https://natyournatsu.xyz) |
-| [**Pokémon Battle**](https://github.com/demonfirx/Pokemon-battle) | A turn-based battle engine with type effects and a smart opponent. [Play ↗](https://pokemon-battle-beta.vercel.app) |
-| [**RoughSketch UI**](https://github.com/demonfirx/RoughSketch-UI) | A tool for turning hand-drawn wireframes into generated interfaces. [Try it ↗](https://roughsketch-ui.vercel.app) |
-| [**Nintendo Retro**](https://github.com/demonfirx/Nintendo-Retro) | A retro web tribute to Nintendo. [Explore ↗](https://nintendo-retro.vercel.app) |
+<h4><a href="https://github.com/demonfirx/CV-DewaBagusOdie-v2"><img src="assets/profile/project-odie.png" width="208" height="33" alt="ODIE Portfolio source code"></a></h4>
+
+A personal portfolio built with React, TypeScript, Tailwind CSS, and Motion. [Visit portfolio ↗](https://natyournatsu.xyz)
+
+<h4><a href="https://github.com/demonfirx/Pokemon-battle"><img src="assets/profile/project-pokemon.png" width="208" height="33" alt="Pokémon Battle source code"></a></h4>
+
+A turn-based battle engine with type effects and a smart opponent. [Play Pokémon Battle ↗](https://pokemon-battle-beta.vercel.app)
+
+<h4><a href="https://github.com/demonfirx/RoughSketch-UI"><img src="assets/profile/project-roughsketch.png" width="208" height="33" alt="RoughSketch UI source code"></a></h4>
+
+A tool for turning hand-drawn wireframes into generated interfaces. [Try RoughSketch UI ↗](https://roughsketch-ui.vercel.app)
+
+<h4><a href="https://github.com/demonfirx/Nintendo-Retro"><img src="assets/profile/project-nintendo.png" width="208" height="33" alt="Nintendo Retro source code"></a></h4>
+
+A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-retro.vercel.app)
 
 ### On GitHub
 
