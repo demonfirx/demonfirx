@@ -122,6 +122,18 @@ A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-r
 <img src="assets/profile/contribution-stripe-bottom.png" width="100%" alt="">
 </div>
 
+<h3><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/pinned-repositories-mobile.png">
+  <img src="assets/profile/pinned-repositories.png" width="100%" alt="Pinned repositories — Wild Cards">
+</picture></h3>
+
+<p align="center">
+  <a href="https://github.com/demonfirx/CreditFlow"><img src="assets/profile/pinned-creditflow.png" width="390" alt="CreditFlow repository · JavaScript"></a>
+  <a href="https://github.com/demonfirx/CV-DewaAgungYogieNovian"><img src="assets/profile/pinned-yogie.png" width="390" alt="Dewa Agung Yogie CV repository · TypeScript"></a>
+  <a href="https://github.com/demonfirx/CV-DewaBagusOdie-v2"><img src="assets/profile/pinned-odie.png" width="390" alt="ODIE Portfolio repository · TypeScript"></a>
+  <a href="https://github.com/demonfirx/Pokemon-battle"><img src="assets/profile/pinned-pokemon.png" width="390" alt="Pokémon Battle repository · JavaScript"></a>
+</p>
+
 <h3><a href="https://natyournatsu.xyz"><picture>
   <source media="(max-width: 600px)" srcset="assets/profile/take-your-time-mobile.png">
   <img src="assets/profile/take-your-time.png" width="100%" alt="Take your time. Explore my work and get in touch.">
