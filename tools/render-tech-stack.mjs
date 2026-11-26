@@ -13,7 +13,11 @@ for(let i=0;i<items.length;i+=4)await Promise.all(items.slice(i,i+4).map(async i
  if(!svg.includes('<svg')||!svg.includes('width="48"')||svg.includes('<script'))throw Error(`Invalid single icon for ${item.name}`);
  await writeFile(`${root}assets/skills/${item.icon}.svg`,svg.split('\n').map(line=>line.trimEnd()).join('\n').trimEnd()+'\n');
 }));
-const groups=manifest.groups.map(group=>`<p align="center">\n  <strong>${escapeXml(group.title)}</strong><br><br>\n${group.items.map(item=>`  <a href="${escapeXml(item.url)}" title="${escapeXml(item.name)}"><img src="assets/skills/${item.icon}.svg" alt="${escapeXml(item.name)}" width="48" height="48"></a>`).join('\n')}\n</p>`).join('\n\n');
+const groups=manifest.groups.map(group=>{
+ const heading = `<h4 align="center"><img src="assets/profile/${escapeXml(group.art)}.png" width="208" height="33" alt="${escapeXml(group.title)}"></h4>`;
+ const links = group.items.map(item=>`  <a href="${escapeXml(item.url)}" title="${escapeXml(item.name)}"><img src="assets/skills/${item.icon}.svg" alt="${escapeXml(item.name)}" width="48" height="48"></a>`).join('\n');
+ return `${heading}\n<p align="center">\n${links}\n</p>`;
+}).join('\n\n');
 let readme=await readFile(`${root}README.md`,'utf8');
 if(!readme.includes('<!-- tech-stack:start -->')||!readme.includes('<!-- tech-stack:end -->'))throw Error('Tech stack markers missing');
 readme=readme.replace(/<!-- tech-stack:start -->[\s\S]*?<!-- tech-stack:end -->/,`<!-- tech-stack:start -->\n${groups}\n<!-- tech-stack:end -->`);
