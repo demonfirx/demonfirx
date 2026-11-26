@@ -103,8 +103,8 @@ A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-r
 </picture></h3>
 
 <p align="center">
-  <img src="assets/generated/stats.svg" alt="Dewa Bagus Odie's public GitHub statistics, refreshed automatically." width="390">
-  <img src="assets/generated/languages.svg" alt="Most used languages by code size in public, non-fork repositories." width="390">
+  <img src="https://raw.githubusercontent.com/demonfirx/demonfirx/refs/heads/main/assets/generated/stats.svg" alt="Dewa Bagus Odie's public GitHub statistics, refreshed automatically." width="390">
+  <img src="https://raw.githubusercontent.com/demonfirx/demonfirx/refs/heads/main/assets/generated/languages.svg" alt="Most used languages by code size in public, non-fork repositories." width="390">
 </p>
 
 <!-- activity:start -->
