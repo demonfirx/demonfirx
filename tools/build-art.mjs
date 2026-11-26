@@ -140,6 +140,7 @@ const sections = [
  ['profile/phantom-trail', 416, 66, categoryCard('Phantom Trail')],
  ['profile/contribution-stripe-top', 880, 16, contributionStripe(false)],
  ['profile/contribution-stripe-bottom', 880, 16, contributionStripe(true)],
+ ['profile/sync-wild-cards', 416, 66, categoryCard('Sync Wild Cards ↗')],
  ...destinations,
  ...[
   ['odie', 'ODIE Portfolio'],

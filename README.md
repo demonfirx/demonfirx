@@ -136,6 +136,11 @@ A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-r
 </p>
 <!-- wild-cards:end -->
 
+<p align="center">
+  <a href="https://github.com/demonfirx/demonfirx/actions/workflows/sync-wild-cards.yml"><img src="assets/profile/sync-wild-cards.png" width="208" height="33" alt="Sync Wild Cards"></a><br>
+  <sub>In GitHub Actions, choose <strong>Run workflow</strong> on <code>main</code>.</sub>
+</p>
+
 <h3><a href="https://natyournatsu.xyz"><picture>
   <source media="(max-width: 600px)" srcset="assets/profile/take-your-time-mobile.png">
   <img src="assets/profile/take-your-time.png" width="100%" alt="Take your time. Explore my work and get in touch.">
