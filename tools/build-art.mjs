@@ -104,6 +104,16 @@ function footerLink(title) {
 </svg>`;
 }
 
+function contributionStripe(mirrored) {
+ const transform = mirrored ? 'translate(880 16) rotate(180)' : '';
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="880" height="16" viewBox="0 0 880 16">
+<g transform="${transform}">
+ <path d="M0 0H880L870 16H744L749 9H0Z" fill="${red}"/>
+ <path d="M757 0H769L757 16H745Z M775 0H781L769 16H763Z" fill="${white}"/>
+</g>
+</svg>`;
+}
+
 const destinations = await Promise.all([
  ['portfolio', 'PORTFOLIO', 'page-portfolio.png'],
  ['games', 'GAMES', 'page-playground.png'],
@@ -126,6 +136,9 @@ const sections = [
   [`profile/${name}-mobile`, 440, 88, compactSectionCard(label, title)],
  ]),
  ...stack.groups.map(({art, title}) => [`profile/${art}`, 416, 66, categoryCard(title)]),
+ ['profile/phantom-trail', 416, 66, categoryCard('Phantom Trail')],
+ ['profile/contribution-stripe-top', 880, 16, contributionStripe(false)],
+ ['profile/contribution-stripe-bottom', 880, 16, contributionStripe(true)],
  ...destinations,
  ...[
   ['odie', 'ODIE Portfolio'],

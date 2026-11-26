@@ -107,14 +107,20 @@ A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-r
   <img src="https://raw.githubusercontent.com/demonfirx/demonfirx/refs/heads/main/assets/generated/languages.svg" alt="Most used languages by code size in public, non-fork repositories." width="390">
 </p>
 
+<h4 align="center"><img src="assets/profile/phantom-trail.png" width="208" height="33" alt="Phantom Trail — Contribution summary"></h4>
+
 <!-- activity:start -->
 <p align="center"><strong>2026</strong> · 87 contributions · Best streak: 3 days</p>
 <!-- activity:end -->
 
+<div align="center">
+<img src="assets/profile/contribution-stripe-top.png" width="100%" alt="">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/generated/activity-static.svg">
   <img src="assets/generated/snake.svg" alt="An animated snake follows demonfirx's public contribution calendar." width="100%">
 </picture>
+<img src="assets/profile/contribution-stripe-bottom.png" width="100%" alt="">
+</div>
 
 <h3><a href="https://natyournatsu.xyz"><picture>
   <source media="(max-width: 600px)" srcset="assets/profile/take-your-time-mobile.png">
