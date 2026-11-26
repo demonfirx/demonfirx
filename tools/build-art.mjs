@@ -95,6 +95,15 @@ ${star(413,116,.77)}
 </svg>`;
 }
 
+function footerLink(title) {
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="228" height="88" viewBox="0 0 228 88">
+<path d="M14 5H227L206 82H1Z" fill="${white}"/>
+<path d="M19 11H221L202 76H8Z" fill="${red}"/>
+<text x="100" y="51" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-style="italic" font-size="20" fill="${white}">${xml(title.toUpperCase())}</text>
+<path d="M192 51l15-15m-12 0h12v12" fill="none" stroke="${white}" stroke-width="3" stroke-linejoin="round"/>
+</svg>`;
+}
+
 const destinations = await Promise.all([
  ['portfolio', 'PORTFOLIO', 'page-portfolio.png'],
  ['games', 'GAMES', 'page-playground.png'],
@@ -111,6 +120,7 @@ const sections = [
   ['web-pages', 'WEB PAGES', 'HIDEOUTS'],
   ['selected-projects', 'SELECTED PROJECTS', 'MISSION FILES'],
   ['github-activity', 'ON GITHUB', 'ACTIVITY LOG'],
+  ['take-your-time', 'PORTFOLIO & CONTACT ↗', 'TAKE YOUR TIME.'],
  ].flatMap(([name, label, title]) => [
   [`profile/${name}`, 880, 108, sectionCard(label, title)],
   [`profile/${name}-mobile`, 440, 88, compactSectionCard(label, title)],
@@ -123,6 +133,11 @@ const sections = [
   ['roughsketch', 'RoughSketch UI'],
   ['nintendo', 'Nintendo Retro'],
  ].map(([name, title]) => [`profile/project-${name}`, 416, 66, categoryCard(`${title} ↗`)]),
+ ...[
+  ['bot-guide', 'About the bot'],
+  ['bot-code', 'Bot code'],
+  ['bot-history', 'Run history'],
+ ].map(([name, title]) => [`profile/${name}`, 228, 88, footerLink(title)]),
 ];
 const headers = [['header-joker', 1280, 440, wide], ['header-joker-mobile', 720, 660, mobile]];
 const browser=await chromium.launch({headless:true,channel:'chrome'});

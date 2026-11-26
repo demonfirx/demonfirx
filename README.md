@@ -116,16 +116,22 @@ A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-r
   <img src="assets/generated/snake.svg" alt="An animated snake follows demonfirx's public contribution calendar." width="100%">
 </picture>
 
-<p align="center">
-  <strong>Take your time.</strong><br>
-  <a href="https://natyournatsu.xyz">Explore my work &amp; get in touch ↗</a>
-</p>
+<h3><a href="https://natyournatsu.xyz"><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/take-your-time-mobile.png">
+  <img src="assets/profile/take-your-time.png" width="100%" alt="Take your time. Explore my work and get in touch.">
+</picture></a></h3>
 
-<sub>Statistics and animations refresh automatically 16 times a day, every 90 minutes. Activity includes automated profile maintenance commits.</sub>
+<h4 align="center">Profile bot</h4>
+
+<p align="center">
+  <a href="BOT.md"><img src="assets/profile/bot-guide.png" width="114" height="44" alt="About the bot"></a>
+  <a href="bot.mjs"><img src="assets/profile/bot-code.png" width="114" height="44" alt="Bot code"></a>
+  <a href="https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml"><img src="assets/profile/bot-history.png" width="114" height="44" alt="Run history"></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml"><img src="https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml/badge.svg" alt="Profile bot workflow status"></a><br>
-  <a href="BOT.md">About the bot</a> · <a href="bot.mjs">Bot code</a> · <a href="https://github.com/demonfirx/demonfirx/actions/workflows/profile-update.yml">Run history</a>
+  <sub>Statistics and animations refresh automatically 16 times a day, every 90 minutes. Activity includes automated profile maintenance commits.</sub>
 </p>
 
 <sub>Artwork: [ATLUS / Persona 5 Royal](https://p5r.jp/character/hero/). GIF: [Persona 5 via Tenor](https://tenor.com/view/joker-joker-persona5-gif-21179047). [Skill Icons](https://github.com/tandpfun/skill-icons) · [Snake](https://github.com/Platane/snk). Persona © ATLUS / SEGA. Personal fan profile.</sub>
