@@ -6,7 +6,7 @@
     {"id":"profile","url":"https://github.com/demonfirx/demonfirx","basis":"GitHub is used for the public repositories and profile automation."}
   ],
   "groups": [
-    {"title":"Frontend & UI/UX","items":[
+    {"title":"Frontend & UI/UX","art":"frontend","items":[
       {"name":"React","icon":"react","url":"https://react.dev/","evidence":"portfolio"},
       {"name":"Next.js","icon":"nextjs","url":"https://nextjs.org/docs","evidence":"portfolio"},
       {"name":"TypeScript","icon":"ts","url":"https://www.typescriptlang.org/docs/","evidence":"portfolio"},
@@ -16,7 +16,7 @@
       {"name":"Tailwind CSS","icon":"tailwind","url":"https://tailwindcss.com/docs","evidence":"portfolio"},
       {"name":"Figma","icon":"figma","url":"https://help.figma.com/","evidence":"portfolio"}
     ]},
-    {"title":"Backend & Data","items":[
+    {"title":"Backend & Data","art":"backend","items":[
       {"name":"Node.js","icon":"nodejs","url":"https://nodejs.org/en/docs","evidence":"portfolio"},
       {"name":"Python","icon":"py","url":"https://docs.python.org/3/","evidence":"portfolio"},
       {"name":"PHP","icon":"php","url":"https://www.php.net/docs.php","evidence":"portfolio"},
@@ -25,7 +25,7 @@
       {"name":"MongoDB","icon":"mongodb","url":"https://www.mongodb.com/docs/","evidence":"portfolio"},
       {"name":"PostgreSQL","icon":"postgres","url":"https://www.postgresql.org/docs/","evidence":"portfolio"}
     ]},
-    {"title":"Tools & Workflow","items":[
+    {"title":"Tools & Workflow","art":"workflow","items":[
       {"name":"Docker","icon":"docker","url":"https://docs.docker.com/","evidence":"portfolio"},
       {"name":"Git","icon":"git","url":"https://git-scm.com/doc","evidence":"portfolio"},
       {"name":"GitHub","icon":"github","url":"https://docs.github.com/","evidence":"profile"},

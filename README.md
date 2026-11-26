@@ -9,26 +9,32 @@
   <a href="https://github.com/demonfirx?tab=repositories"><strong>REPOSITORIES ↗</strong></a>
 </p>
 
-### About me
+<h3><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/about-me-mobile.png">
+  <img src="assets/profile/about-me.png" width="100%" alt="About me — Behind the Mask">
+</picture></h3>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/joker-still.png">
   <img src="assets/joker-awakening.gif" alt="Joker lifts his head and smiles, from Persona 5. A still image is shown when reduced motion is enabled." align="right" width="32%">
 </picture>
 
-I'm **Odie**, a frontend developer and UI/UX enthusiast from Indonesia. I build web interfaces, work with motion, and make browser games on the side.
+I'm **Odie** (`demonfirx`), a frontend developer and UI/UX enthusiast from Indonesia. Sharp type and motion are my calling card.
 
-My projects range from a personal portfolio to a Pokémon battle engine. I like sharp typography and small details that make an interface feel good to use.
+I build web interfaces and make browser games on the side. My [Pokémon battle engine](https://github.com/demonfirx/Pokemon-battle) is where I get to tinker with turn-based rules.
 
-**Currently exploring:** interactive web experiences and game mechanics.
+**Next mission** · Explore more interactive web experiences and game mechanics.
 
 <br clear="both">
 
-<h3 align="center">Tools &amp; technologies</h3>
+<h3><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/tech-stack-mobile.png">
+  <img src="assets/profile/tech-stack.png" width="100%" alt="Tools and technologies — The Loadout">
+</picture></h3>
 
 <!-- tech-stack:start -->
+<h4 align="center"><img src="assets/profile/frontend.png" width="208" height="33" alt="Frontend &amp; UI/UX"></h4>
 <p align="center">
-  <strong>Frontend &amp; UI/UX</strong><br><br>
   <a href="https://react.dev/" title="React"><img src="assets/skills/react.svg" alt="React" width="48" height="48"></a>
   <a href="https://nextjs.org/docs" title="Next.js"><img src="assets/skills/nextjs.svg" alt="Next.js" width="48" height="48"></a>
   <a href="https://www.typescriptlang.org/docs/" title="TypeScript"><img src="assets/skills/ts.svg" alt="TypeScript" width="48" height="48"></a>
@@ -39,8 +45,8 @@ My projects range from a personal portfolio to a Pokémon battle engine. I like 
   <a href="https://help.figma.com/" title="Figma"><img src="assets/skills/figma.svg" alt="Figma" width="48" height="48"></a>
 </p>
 
+<h4 align="center"><img src="assets/profile/backend.png" width="208" height="33" alt="Backend &amp; Data"></h4>
 <p align="center">
-  <strong>Backend &amp; Data</strong><br><br>
   <a href="https://nodejs.org/en/docs" title="Node.js"><img src="assets/skills/nodejs.svg" alt="Node.js" width="48" height="48"></a>
   <a href="https://docs.python.org/3/" title="Python"><img src="assets/skills/py.svg" alt="Python" width="48" height="48"></a>
   <a href="https://www.php.net/docs.php" title="PHP"><img src="assets/skills/php.svg" alt="PHP" width="48" height="48"></a>
@@ -50,8 +56,8 @@ My projects range from a personal portfolio to a Pokémon battle engine. I like 
   <a href="https://www.postgresql.org/docs/" title="PostgreSQL"><img src="assets/skills/postgres.svg" alt="PostgreSQL" width="48" height="48"></a>
 </p>
 
+<h4 align="center"><img src="assets/profile/workflow.png" width="208" height="33" alt="Tools &amp; Workflow"></h4>
 <p align="center">
-  <strong>Tools &amp; Workflow</strong><br><br>
   <a href="https://docs.docker.com/" title="Docker"><img src="assets/skills/docker.svg" alt="Docker" width="48" height="48"></a>
   <a href="https://git-scm.com/doc" title="Git"><img src="assets/skills/git.svg" alt="Git" width="48" height="48"></a>
   <a href="https://docs.github.com/" title="GitHub"><img src="assets/skills/github.svg" alt="GitHub" width="48" height="48"></a>
