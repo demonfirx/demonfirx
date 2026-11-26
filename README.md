@@ -97,7 +97,10 @@ A tool for turning hand-drawn wireframes into generated interfaces. [Try RoughSk
 
 A retro web tribute to Nintendo. [Explore Nintendo Retro ↗](https://nintendo-retro.vercel.app)
 
-### On GitHub
+<h3><picture>
+  <source media="(max-width: 600px)" srcset="assets/profile/github-activity-mobile.png">
+  <img src="assets/profile/github-activity.png" width="100%" alt="On GitHub — Activity Log">
+</picture></h3>
 
 <p align="center">
   <img src="assets/generated/stats.svg" alt="Dewa Bagus Odie's public GitHub statistics, refreshed automatically." width="390">
