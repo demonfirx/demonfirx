@@ -81,6 +81,10 @@ I build web interfaces and make browser games on the side. My [Pokémon battle e
   <img src="assets/profile/selected-projects.png" width="100%" alt="Selected Projects — Mission Files">
 </picture></h3>
 
+<h4><a href="https://github.com/demonfirx/interstellar-expedition"><img src="assets/profile/project-interstellar.png" width="208" height="33" alt="Interstellar 3D source code"></a></h4>
+
+An interactive 3D expedition archive and Maerith boss duel built with Three.js and Vite. [View repository ↗](https://github.com/demonfirx/interstellar-expedition)
+
 <h4><a href="https://github.com/demonfirx/CV-DewaBagusOdie-v2"><img src="assets/profile/project-odie.png" width="208" height="33" alt="ODIE Portfolio source code"></a></h4>
 
 A personal portfolio built with React, TypeScript, Tailwind CSS, and Motion. [Visit portfolio ↗](https://natyournatsu.xyz)

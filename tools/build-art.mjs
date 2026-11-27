@@ -143,6 +143,7 @@ const sections = [
  ['profile/sync-wild-cards', 416, 66, categoryCard('Sync Wild Cards ↗')],
  ...destinations,
  ...[
+  ['interstellar', 'Interstellar 3D'],
   ['odie', 'ODIE Portfolio'],
   ['pokemon', 'Pokémon Battle'],
   ['roughsketch', 'RoughSketch UI'],
